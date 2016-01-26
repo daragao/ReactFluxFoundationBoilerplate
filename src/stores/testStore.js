@@ -1,6 +1,5 @@
 import BaseStore from './baseStore';
 import Constants from '../constants';
-import Dispatcher from '../dispatcher';
 
 class TestStore extends BaseStore {
     __onDispatch (action) {
